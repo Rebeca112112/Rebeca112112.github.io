@@ -1,0 +1,110 @@
+#especial{
+	font-family: impact;
+	font-size: 30px;
+	text-align: center;
+	color: black;
+
+}
+
+.bprincipal{
+	background-color: #800000;
+    color: white;
+    border-radius: 40px;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;  /* sem linha no texto */
+    margin: 10px;
+    display: block; /* importantíssimo */
+    font-size: 16px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.5), 0 6px 20px 0 rgba(0,0,0,0.15);
+    
+}
+
+.bprincipal:hover {
+    background-color: rgb(221,105,80); 
+    color: white;
+}
+
+#meunome{
+	
+	color: #DC143c;
+	top:87%;
+	position: fixed;
+	padding-left: 320px;
+	font-family: Trattatello, fantasy;
+
+}
+
+footer{
+	top: 87%;
+    position: absolute;
+    bottom: 0;
+    padding: 1% 0% 0% 10%;
+
+}
+
+#l1
+{
+    float: left;
+    width: 60%;
+    height: 100%;
+    padding: 0% 0% 0% 10%;
+}
+
+#l2
+{
+    float: left;
+    width: 25%;
+    height: 100%;
+}
+
+.nome{
+	font-family: impact;
+	text-decoration: none;
+
+}
+
+#teste{
+color: #800000;
+}
+
+#especialexer{
+	background-color: #800000;
+	color: rgb(221,105,80) ;
+	font-size: 30px;
+	text-align: center;
+}
+
+#especialtarefas{
+	background-color: #800000;
+	color: rgb(221,105,80) ;
+	font-size: 30px;
+	
+	text-align: center;
+}
+
+input
+{
+    width: 100%;
+    font-size: 15px;
+    text-align: center;
+}
+
+button{
+	background-color: #800000;
+	color: white;
+	width: 100px;
+}
+
+h2{
+	font-size: 20px;
+	text-align: center;
+}
+
+
+#textodesafio{
+	background-color: rgb(221,105,80);
+	
+	font-family: impact;
+
+}
