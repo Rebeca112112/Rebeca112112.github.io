@@ -9,19 +9,18 @@
 	<h1 id="especialtarefas"> Elemento: Sódio (NA) </h1>
 	<h1> Massa para mol: </h1>
 	<form>
-	<input type="text" id="massa" placeholder="forneca a massa do elemento">
-	<br>
-	<br>
-	<button type="button" id="botao1"> Executar </button>
-	<p id="resultado1"></p>
-	</form>
-	<h1> Mol para massa: </h1>
-	<form>
-	<input type="text" id="mol" placeholder="forneca o mol do elemento">
-	<br>
-	<br>
-	<button type="button" id="botao2"> Executar </button>
-	<p id="resultado2"></p>
+		<input type="number" id="valor" placeholder="Digite a quantidade e selecione a correlação:">
+		<br>
+		<br>
+		<select id="corr">
+			<option value="1"> Mol para massa </option>
+			<option value="2"> Massa para mol</option>
+		</select>
+		<br>
+		<br>
+		<button type="button" id="botao">Calcular</button>
+		<button type="button" id="limpar">Limpar</button>
+		<p id="resultado"></p>
 	</form>
 	<li><a href="../1quimica.html" class="volt">Voltar</a></li>
 	<script src="js/quimica.js"></script>

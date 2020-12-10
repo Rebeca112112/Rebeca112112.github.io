@@ -56,18 +56,14 @@
 	border: 5px solid #800000;
 	border-radius: 30px 0px 0px 30px;
 
-	 
 }
-
-
 
 
 footer{
 	top: 87%;
     position: absolute;
     bottom: 0;
-    
-
+   
 }
 
 #l1
@@ -85,6 +81,12 @@ footer{
     height: 100%;
 }
 
+#l3{
+	float: left;
+    width: 25%;
+    height: 100%;
+}
+
 .nome{
 	font-family: impact;
 	text-decoration: none;
@@ -95,20 +97,13 @@ footer{
 color: #800000;
 }
 
-#especialexer{
-	background-color: #800000;
-	color: rgb(221,105,80) ;
+#especialexer, #especialtarefas{
+	background-color:#FFCC99 ;
+	color:#800000;
 	font-size: 30px;
 	text-align: center;
 }
 
-#especialtarefas{
-	background-color: #800000;
-	color: rgb(221,105,80) ;
-	font-size: 30px;
-	
-	text-align: center;
-}
 
 input
 {
@@ -130,9 +125,9 @@ h2{
 
 
 #textodesafio{
-	background-color: rgb(221,105,80);
+	background-color: #FFCC99;
 	
-	font-family: impact;
+	
 
 }
 
