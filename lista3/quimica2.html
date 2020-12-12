@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Química</title>
+        <link rel="stylesheet" type="text/css" href="../css/style.css" media="screen" />
+    </head>
+    <body>
+        <h1 id="especialtarefas">Reações</h1>
+        
+        <p id="textodesafio">Primeiro escolha a correlação que deseja, depois escolha o primeiro e o segundo reagente. Lembrando que você deve digitar na caixa a quantidade do primeiro reagente na unidade da correlação.</p>
+        <ul>
+            <li><span id="h2(1)">44,8</span>L H2 + <span id="o2(1)">22,4</span>L O2 => <span id="h2o(1)">67,2</span>L H2O</li>
+            <li><span id="h2">44,8</span>L H2 + <span id="o2">22,4</span>L O2 => <span id="h2o">18</span>g H2O</li>
+        </ul>
+        
+        <form>
+            <label>Correlação</label>
+            <select id="corr">
+                <option value="1">Volume H2+Volume O2</option>
+                <option value="2">Massa H2O=Volume O2</option>
+            </select>
+            <label>Primeiro reagente</label>
+            <select id="reagente1">
+                <option value="1">H2</option>
+                <option value="2">O2</option>
+                <option value="3">H2O</option>
+            </select>
+            <label>Segundo reagente</label>
+            <select id="reagente2">
+                <option value="1">H2</option>
+                <option value="2">O2</option>
+                <option value="3">H2O</option>
+            </select><br><br>
+            <input type="number" id="entrada" placeholder="Quantidade 1° reagente:">
+            <br><br><button type="button" id="botao">Calcular</button>
+            <button type="button" id="limpar">Limpar</button>
+            <p id="resultado"></p>
+        </form>      
+        <li><a href="../1quimica.html">Voltar</a></li>
+        <script src="./js/quimica2.js"></script>
+    </body>
+</html>
