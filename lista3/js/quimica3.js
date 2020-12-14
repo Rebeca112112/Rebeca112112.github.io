@@ -13,10 +13,10 @@ botao.onclick = function retorna()
     {
         inputth2 = parseFloat(inputth2);
         inputto2 = parseFloat(inputto2);
-        var x = 22.4*inputth2;
-        var x1 = x/44.8;
-        var y = 44.8*inputto2;
-        var y1 = y/22.4;
+        var x = 16*inputth2;
+        var x1 = x/2;
+        var y = 2*inputto2;
+        var y1 = y/16;
         var r = inputto2 - x1;
         var r2 = inputth2 - y1;
         var massa1 = inputto2 + y1;
@@ -31,12 +31,12 @@ botao.onclick = function retorna()
         massa1 = massa1.toFixed(2);
         if(x1<inputto2)
         {
-            var excesso = "44,8L H2 - 22,4L O2 <br>" + inputth2 + "L H2 - XL O2 <br><br> 44,8 . X = " + x +"<br> X = " + x1 + "<br><br>Para " + inputth2 + "L H2 precisa-se de " + x1 + "L O2<br> " + inputto2 +" - " + x1 + " = " + r + "<br><br>O2 está " + r + " L em excesso<br> O agente limitante é o H2 <br> O vulume de H2O formado é de " + massa + "L";
+            var excesso = "2g H2 - 16g O2 <br>" + inputth2 + "g H2 - Xg O2 <br><br> 2 . X = " + x +"<br> X = " + x1 + "<br><br>Para " + inputth2 + "g H2 precisa-se de " + x1 + "g O2<br> " + inputto2 +" - " + x1 + " = " + r + "<br><br>O2 está " + r + " g em excesso<br> O agente limitante é o H2 <br> A massa de H2O formada é de " + massa + "g";
 
         }
         else if(x1>inputto2)
         {
-            var excesso = "44,8L H2 - 22,4L O2 <br> XL O2" + inputto2 + "L O2 <br><br> 22,4 . X = " + y +"<br> X = " + y1 + "<br><br>Para " + inputto2 + "L O2 precisa-se de " + y1 + "L H2<br> " + inputth2 +" - " + y1 + " = " + r2 + "<br><br>H2 está " + r2 + " L em excesso<br> O agente limitante é o O2 <br> O volume de H2O formade é de " + massa1 + "L";
+            var excesso = "2g H2 - 16g O2 <br> Xg O2 -" + inputto2 + "g O2 <br><br> 16 . X = " + y +"<br> X = " + y1 + "<br><br>Para " + inputto2 + "g O2 precisa-se de " + y1 + "g H2<br> " + inputth2 +" - " + y1 + " = " + r2 + "<br><br>H2 está " + r2 + " g em excesso<br> O agente limitante é o O2 <br> A massa de H2O formada é de " + massa1 + "g";
         }
         else if(x1 == inputto2)
         {
