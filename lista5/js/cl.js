@@ -34,7 +34,7 @@ $(function(){
 
 			// para o novo tipo de input, quando add mais de um autor no site irá entender//
 			let autores = $("#autores");
-        	let novo_input = $("<option>").text(autor);  // colocando como opção cada autor que já foi escrito //
+        	let novo_input = $("<option>").text(autorLivro);  // colocando como opção cada autor que já foi escrito //
        		autores.append(novo_input);
 
 			})
