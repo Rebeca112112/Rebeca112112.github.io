@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="./js/cl.js"></script>
+	<link rel="stylesheet" type="text/css" href="../css/style.css"/>
+    </head>
+<body>
+
+<fieldset>
+	<legend>Cadastro de livros</legend>
+	<input type="text" id="titulo" class="tttt" placeholder="titulo"> <br> 
+	<textarea id="descricao" class="tttt" placeholder="descricao"></textarea> <br> 
+	<select id="genero" class="tttt">
+		<option value="Romance">Romance</option>
+		<option value="Drama">Drama</option>
+		<option value="Terror">Terror</option>
+		<option value="Ficção">Ficção</option>
+		<option value="Técnico">Técnico</option>
+	</select>
+	<br>
+	
+
+	<input type="text" list="autores" id="autor" class="tttt" placeholder="autor"><br>
+
+	<datalist id="autores">
+	<option></option>
+	</datalist>
+	<br>
+	<button id="botaoDD">Adicionar a lista</button>
+</fieldset>
+
+<h1>Catálogo</h1>
+
+	<table width="60%" border="1" id="acervo">
+		<tr><th>Título</th><th>Descrição</th><th>Gênero</th><th>Autor</th><th></th></tr>
+	</table>
+	<form action="https://rafaelescalfoni.net/web/livros.php" 
+		method="post">
+		<input type="hidden" name="apost">
+		<input type="submit" value="Salvar no BD">
+	</form>
+</body>
+</html>
