@@ -27,16 +27,20 @@ var definicoes = [
 $(function(){
 
 	var tamanho = definicoes.length;
-	
+
 	$("#botao").click(function(){
+		$(this).text("test");
+        $(this).remove();
 		for(let i=0;i<tamanho;i++)
 		{
 
+			let mouse = $("<a>").attr("href", "#");
 			let linha = $("<li>");
 			let nome = definicoes[i].termo;
 			linha.append(nome); // nome eh elemento da linha//
+			mouse.append(linha);
 			let nao_ordenada = $("#lista");
-            nao_ordenada.append(linha); // linha eh um elemento da lista //
+            nao_ordenada.append(mouse); // linha eh um elemento da lista //
 
 		}
 

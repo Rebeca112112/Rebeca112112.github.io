@@ -145,5 +145,17 @@ h2{
 	width: 200px;
 }
 
-
-
+#div2{
+	float: right;
+	width: 55%;
+	
+}
+/*testando so */{
+	border-width: medium;
+  	border-style: solid;
+  	border-color: black;
+}
+#div1{
+	float: left;
+	width: 30%;
+}
