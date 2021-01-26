@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<meta charset="utf-8">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="./js/livro.js"></script>
+    <link rel="stylesheet" type="text/css" href="../css/style.css"/>
+</head>
+<body>
+
+	<fieldset style="width: 400px;">
+		<legend>Cadastro de livros</legend>
+		<input type="text" id="titulo" class="tttt" placeholder="titulo"><br>
+		<textarea id="descricao" class="tttt" placeholder="titulo"></textarea> <br>
+		<select id="genero" class="tttt">
+			<option value="Romance">Romance</option>
+			<option value="Drama">Drama</option>
+			<option value="Terror">Terror</option>
+			<option value="Ficção">Ficção</option>
+			<option value="Técnico">Técnico</option>
+		</select>
+		<br>
+		<input type="text" list="autores" id="autor" class="tttt" placeholder="autor"><br>
+		<datalist id="autores">
+		<option></option>
+		</datalist>	
+		<br>
+		<button id="botao">Adicionar a lista</button>
+	</fieldset>
+
+    <section style="width: 500px;">
+	<h1>Catálogo</h1>
+
+	<table width="60%" border="1" id="acervo">
+		<tr>
+			<th class="teste">Título</th>
+			<th class="teste">Descrição</th>
+			<th class="teste">Gênero</th>
+			<th class="teste">Autor</th>
+			<th></th>
+		</tr>
+	</table>
+
+	<br>
+
+	<form action="https://rafaelescalfoni.net/web/livros.php" method="post">
+		<input type="hidden" name="acervo_post">
+		<input type="submit" value="Salvar no BD" id="salvar_bd">
+	</form>
+
+</section>
+<a href="../2trimestre.html" class="volt">Voltar</a>
+</body>
+
+</html>
