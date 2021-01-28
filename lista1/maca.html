@@ -2,20 +2,46 @@
 <html>
 <head>
 	<meta charset="utf-8">
-	<title>Maçã</title>
-	<script src="./js/exercicio10.js"></script>
-	<link rel="stylesheet" type="text/css" href="../css/style.css"/>
+	  <meta name="viewport" content="width=device-width, maximum-scale=1">
+	  <title>1º Trimestre</title>
+	  <link rel="icon" href="../favicon.png" type="image/png">
+	  <link href="../css/bootstrap.min.css" rel="stylesheet" type="text/css">
+	  <link href="../css/style.css" rel="stylesheet" type="text/css"> 
+	  <link href="../css/font-awesome.css" rel="stylesheet" type="text/css"> 
+	  <link href="../css/animate.css" rel="stylesheet" type="text/css">
+	  <script src="./js/exercicio10.js"> </script>
+	  <link rel="stylesheet" type="text/css" href="../css/style2.css"/>
 </head>
 <body>
+
+<!--Header_section-->
+<header id="header_wrapper">
+  <div class="container">
+    <div class="header_box">
+      <div class="logo"><a href="#"><img src="../img/nome.png" alt="logo"></a></div>
+      <nav class="navbar navbar-inverse" role="navigation">
+        <div id="main-nav" class="collapse navbar-collapse navStyle">
+            <ul class="nav navbar-nav" id="mainNav">
+              <li><a href="../index.html" class="scroll-link">Home</a></li>
+              <li class="active"><a href="#javas" class="scroll-link">JAVA SCRIPT</a></li>
+        </ul>
+      </div>
+     </nav>
+    </div>
+  </div>
+</header>
+<!--Header_section-->
+
+
 	<h1 id="especialtarefas"> Maçãs e preços: </h1>
-	<h2> Até nove unidades você paga 1.30(por cada). A partir de dez, 1 real. </h2>
+	<h3 id="h3baixo">(Até nove unidades você paga 1.30(por cada). A partir de dez, 1 real). </h3>
 	<form>
 		<input type="text" id="compra" placeholder="numeros de maçãs compradas">
 		<br>
 		<br>
 		<button onclick="preços();">Executar</button>
 	</form>
-	<br><li><a href="../1trimestre.html">Voltar</a></li>
+	<br><a href="../1trimestre.html"  id="voltar">Voltar</a>
 
 </body>
 </html>

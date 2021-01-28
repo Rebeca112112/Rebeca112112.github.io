@@ -1,34 +1,136 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<meta charset="utf-8">
-	<title>Rebeca Marques</title>
-	<link rel="stylesheet" type="text/css" href="./css/style.css" media="screen"/>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, maximum-scale=1">
+<title>Rebeca Marques</title>
+<link rel="icon" href="favicon.png" type="image/png">
+<link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+<link href="css/style.css" rel="stylesheet" type="text/css"> 
+<link href="css/font-awesome.css" rel="stylesheet" type="text/css"> 
+<link href="css/animate.css" rel="stylesheet" type="text/css">
+ 
+<!--[if lt IE 9]>
+    <script src="js/respond-1.1.0.min.js"></script>
+    <script src="js/html5shiv.js"></script>
+    <script src="js/html5element.js"></script>
+<![endif]-->
+ 
 </head>
 <body>
 
-	<section id="sobremim">
-	<img src="piano.jpg" id="tamanho">
-	</section>
-	<section id="pagina">
-	<h1 id="especial"> Programação Cliente Web</h1>
-	
-    <a href="1trimestre.html" class="bprincipal">1° Trimestre</a>
-    <a href="2trimestre.html" class="bprincipal">2° Trimestre</a>
-    <a href="3trimestre.html" class="bprincipal">3° Trimestre</a>      
-    
-    <h1 id="especial"> Química </h1>
+<!--Header_section-->
+<header id="header_wrapper">
+  <div class="container">
+    <div class="header_box">
+      <div class="logo"><a href="#"><img src="img/nome.png" alt="logo"></a></div>
+	  <nav class="navbar navbar-inverse" role="navigation">
+	    <div id="main-nav" class="collapse navbar-collapse navStyle">
+			<ul class="nav navbar-nav" id="mainNav">
+			  <li class="active"><a href="#hero_section" class="scroll-link">Home</a></li>
+			  <li><a href="#javas" class="scroll-link">JAVA SCRIPT</a></li>
+			  <li><a href="#quimicas" class="scroll-link">QUÍMICA</a></li>
+        <li><a href="https://rafaelescalfoni.github.io/prog-clientes-web-2020_1.html" class="scroll-link"> Página Professor</a>
+			  </ul>
+      </div>
+	 </nav>
+    </div>
+  </div>
+</header>
+<!--Header_section--> 
 
-    <a href="1quimica.html" class="bprincipal">1° Trimestre</a>
-    <a href="2quimica.html" class="bprincipal">2° Trimestre</a>
-    <a href="3quimica.html" class="bprincipal">3° Trimestre</a>
-	</section>
-
-</body>
-<footer>
-	<section id="voltarindex">
-	<a href="https://rafaelescalfoni.github.io/prog-clientes-web-2020_1.html" class="volt">Voltar</a>
+<!--Hero_Section-->
+<section id="hero_section" class="top_cont_outer">
+  <div class="hero_wrapper">
+    <div class="container">
+      <div class="hero_section">
+        <div class="row">
+          <div class="col-lg-5 col-sm-7">
+            <div class="top_left_cont zoomIn wow animated"> 
+              <h2>Conteúdos</h2>
+              <p id="pdiferente">Olá, veja bem vindo(a)! Meu nome é Rebeca Marques, sou aluna do CEFET/NF. Esse meu site apresenta conteúdos de Java Script e Química desenvolvidas nos trimestres do meu segundo ano do ensino médio integrado em informática. </p>
+               <!-- <a href="#javas" class="read_more2">Voltar ao início</a> -->
+               </div> 
+          </div>
+          <div class="col-lg-7 col-sm-5">
+			     <img id="imagemespecial" src="img/rebeca.jpeg" class="zoomIn wow animated" alt="rebeca" />
+		      </div>
+        </div>
+      </div>
+    </div>
+  </div>
 </section>
+<!--Hero_Section--> 
+
+<section id="javas"><!--Aboutus-->
+<div class="inner_wrapper">
+  <div class="container">
+    <h2>JAVA SCRIPT</h2>
+    <div class="inner_section">
+	<div class="row">
+      <div class=" col-lg-4 col-md-4 col-sm-4 col-xs-12 pull-right"><img src="img/java.jpg" class="img-circle delay-03s animated wow zoomIn" alt=""></div>
+      	<div class=" col-lg-7 col-md-7 col-sm-7 col-xs-12 pull-left">
+        	<div class=" delay-01s animated fadeInDown wow animated">
+			    <!-- <h3>Lorem Ipsum has been the industry's standard dummy text ever..</h3><br/> -->
+            <p>"JavaScript é uma linguagem de programação interpretada estruturada, de script em alto nível com tipagem dinâmica fraca e multiparadigma. Juntamente com HTML e CSS, o JavaScript é uma das três principais tecnologias da World Wide Web."</p>
+        </div>
+        <div class="work_bottom">
+        <span>Veja os conteúdos dos trimestres:</span>
+        <a href="./1trimestre.html" class="contact_btn">1° Trimestre</a> <br>
+        <a href="./2trimestre.html" class="contact_btn">2° Trimestre</a>
+        </div>       
+	    </div>	
+      </div>
+    </div>
+  </div> 
+</div>
+</section>
+<!--Aboutus--> 
+
+
+
+<!-- quimica -->
+<section id="quimicas"><!--Aboutus-->
+<div class="inner_wrapper">
+  <div class="container">
+    <h2>QUÍMICA</h2>
+    <div class="inner_section">
+     <div class="row">
+      <div class=" col-lg-4 col-md-4 col-sm-4 col-xs-12 pull-right"><img src="img/quimica.jpg" class="img-circle delay-03s animated wow zoomIn" alt=""></div>
+        <div class=" col-lg-7 col-md-7 col-sm-7 col-xs-12 pull-left">
+          <div class=" delay-01s animated fadeInDown wow animated">
+          <!-- <h3>Lorem Ipsum has been the industry's standard dummy text ever..</h3><br/> -->
+            <p id="pdiferente">"Química é a ciência que estuda a composição, estrutura, propriedades da matéria, as mudanças sofridas por ela durante as reações químicas e a sua relação com a energia."</p>
+        </div>
+        <div class="work_bottom">
+             <span>Veja os conteúdos dos trimestres:</span>
+             <a href="./1quimica.html" class="contact_btn">1° Trimestre</a> <br>
+             <a href="./2quimica.html" class="contact_btn">2° Trimestre</a>
+           </div>       
+         </div>
+        </div>
+      </div>
+    </div> 
+  </div>
+</section>
+
+
+<!--Footer-->
+
+  </div>
+  <div class="container">
+    <div class="footer_bottom"><span>Copyright © 2014, Template by <a href="http://webthemez.com">WebThemez.com</a>. </span> </div>
+  </div>
 </footer>
 
+<script type="text/javascript" src="js/jquery-1.11.0.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/jquery-scrolltofixed.js"></script>
+<script type="text/javascript" src="js/jquery.nav.js"></script> 
+<script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
+<script type="text/javascript" src="js/jquery.isotope.js"></script>
+<script type="text/javascript" src="js/wow.js"></script> 
+<script type="text/javascript" src="js/custom.js"></script>
+
+</body>
 </html>

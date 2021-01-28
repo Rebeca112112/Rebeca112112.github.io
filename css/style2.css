@@ -1,0 +1,264 @@
+#especial{
+	font-family: impact;
+	font-size: 30px;
+	text-align: center;
+	color: black;
+
+}
+
+.bprincipal{
+	background-color: #800000; 
+    color: white;
+    border-radius: 40px ;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;  /* sem linha no texto */
+    margin: 10px ;
+    display: block; /* importantíssimo */
+    font-size: 16px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.5), 0 6px 20px 0 rgba(0,0,0,0.15);
+
+    
+}
+
+.bprincipal:hover {
+    background-color: rgb(221,105,80); 
+    color: white;
+}
+
+#meunome{
+	
+	color: #DC143c;
+	top:87%;
+	padding-top: 50px;
+	padding-left: 320px;
+	font-family: Trattatello, fantasy;
+
+}
+
+#sobremim{
+	
+	width: 28%;
+	float: left;
+}
+#pagina{
+	background-color: #FFCC99;
+	width: 68.2%;
+	float: right;
+	border-sizing: border-box;
+	padding-bottom: 40px;
+	border: 5px solid #800000;
+	border-radius: 0px 30px 30px 0px;
+	
+}
+#tamanho{
+	width: 412.5px;
+	border: 5px solid #800000;
+	border-radius: 30px 0px 0px 30px;
+
+}
+
+
+#voltar{
+	background: #fff;
+    width: 150px;
+    height: 49px;
+    text-align: center;
+    line-height: 49px;
+    font-size: 16px;
+    color: #2E8B57;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600; /* color forte */
+    transition: all 0.2s ease-in-out; 
+    -moz-transition: all 0.2s ease-in-out;
+    -webkit-transition: all 0.2s ease-in-out;
+    padding: 0px 0px 40px 40px;
+
+}
+#l1
+{
+    float: left;
+    width: 50%;
+    height: 100%;
+   
+    border-radius: 30px;
+    
+}
+
+#l2
+{
+    float: left;
+    width: 50%;
+    height: 100%;
+    border-radius: 35px;
+}
+
+#l3{
+	float: left;
+    width: 50%;
+    height: 100%;
+    border-radius: 35px;
+}
+
+.nome{
+	font-family: impact;
+	text-decoration: none;
+
+}
+
+#teste{
+	color: #228B22;
+	font-size: 2em;
+	padding-left: 225px;
+	font-family: Luminari, fantasy;
+
+}
+
+#teste2{
+	color: #228B22;
+	font-size: 2em;
+	font-family: Luminari, fantasy;
+	
+}
+#teste3{
+	color: #228B22;
+	font-size: 2em;
+	font-family: Luminari, fantasy;
+	padding-left: 50px;
+}
+#lie{
+	padding-left: 225px;
+	
+}
+
+#tamanho2{
+	padding-left: 225px;
+}
+
+#tamanho3{
+	padding-left: 120px;
+}
+
+#botao{
+	color: #2E8B57;
+	font-family: Trattatello, fantasy;
+	font-size: 18px;
+
+}
+.novo{
+	padding-left: 50px;
+	font-size: 2em;
+
+}
+
+
+
+#parabt{
+	padding-left: 10px;
+}
+
+#salvar_bd{
+	color: #2E8B57;
+	font-family: Trattatello, fantasy;
+	font-size: 18px;
+	background-color: #b3ffb3;
+
+}
+
+#parainp{
+	padding-left: 150px;
+}
+
+#especialexer, #especialtarefas{
+	
+	color: #2E8B57;
+	font-size: 30px;
+	padding-left: 50px;
+	font-family:Luminari, fantasy;
+}
+
+#textodesafio2{
+	background-color: #b3ffb3;
+	color: black;
+	padding-left: 20px;
+}
+
+.textodesafio2{
+	background-color: #b3ffb3;
+	color: black;
+	padding-left: 20px;
+}
+#textodesafio{
+	background-color: #2E8B57;
+	color: white;
+	padding-left: 20px;
+}
+
+#h3baixo{
+
+	font-size: 15px;
+	color: #2E8B57;
+	padding-left: 50px;
+
+
+}
+form{
+	padding-top: 20px;
+	padding-left: 50px;
+
+}
+input
+{ 	padding-left: 10px;
+    width: 30%;
+    font-size: 15px;
+}
+
+button{
+	font-family: 'Raleway', sans-serif;
+    display: block;
+    font-size: 16px;
+    width: 178px;
+    height: 46px;
+    line-height: 46px;
+    border-radius: 3px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 600;
+    background: #b3ffb3;
+    color: #2E8B57;
+    border: 1px solid #fff;
+}
+
+
+h2{
+	font-size: 20px;
+	text-align: center;
+}
+
+
+.lixeira{
+	height: 20px;
+}
+
+#botaoDD{
+	width: 200px;
+}
+
+.tttt{
+	width: 200px;
+}
+
+#div2{
+	float: right;
+	width: 55%;
+	
+}
+/*testando so */{
+	border-width: medium;
+  	border-style: solid;
+  	border-color: black;
+}
+#div1{
+	float: left;
+	width: 30%;
+}

@@ -39,7 +39,7 @@ $(function(){
 			let nome = definicoes[i].termo;
 			linha.append(nome); // nome eh elemento da linha//
 			mouse.append(linha);
-			let nao_ordenada = $("#lista");
+			let nao_ordenada = $("#lista").addClass("novo");
             nao_ordenada.append(mouse); // linha eh um elemento da lista //
 
 		}
@@ -58,6 +58,7 @@ $(function(){
                 let criacao =  data1 + "/" + data2 + "/" + data3;
                 $("#data").text("Data de criação: " + criacao);
                 $("#autor").text("Autor: " + definicoes[i].autor);
+
             }
         }
     })

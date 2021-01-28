@@ -1,23 +1,48 @@
 <!DOCTYPE html>
 <html lang="pt">
     <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Química</title>
-        <link rel="stylesheet" type="text/css" href="../css/style.css" media="screen" />
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, maximum-scale=1">
+      <title>1º Trimestre</title>
+      <link rel="icon" href="../favicon.png" type="image/png">
+      <link href="../css/bootstrap.min.css" rel="stylesheet" type="text/css">
+      <link href="../css/style.css" rel="stylesheet" type="text/css"> 
+      <link href="../css/font-awesome.css" rel="stylesheet" type="text/css"> 
+      <link href="../css/animate.css" rel="stylesheet" type="text/css">
+      <link rel="stylesheet" type="text/css" href="../css/style2.css"/>
     </head>
     <body>
+
+<!--Header_section-->
+<header id="header_wrapper">
+  <div class="container">
+    <div class="header_box">
+      <div class="logo"><a href="#"><img src="../img/nome.png" alt="logo"></a></div>
+      <nav class="navbar navbar-inverse" role="navigation">
+        <div id="main-nav" class="collapse navbar-collapse navStyle">
+            <ul class="nav navbar-nav" id="mainNav">
+              <li><a href="index.html" class="scroll-link">Home</a></li>
+          <li class="active"><a href="#quimicas" class="scroll-link">QUÍMICA</a></li>
+        </ul>
+      </div>
+     </nav>
+    </div>
+  </div>
+</header>
+<!--Header_section--> 
+
+
         <h1 id="especialtarefas">Reagentes</h1>
         <p id="textodesafio">Digite valores em gramas de H2 e O2, assim retornará quem é o agente limitante, quem é agente em excesso e quantas gramas está em excesso.</p>
         <form>
-            <label>Correlação = Volume H2 - Volume O2</label><br><br>
+            <label>Correlação = Grama H2 - Grama O2</label><br><br>
             <input type="number" id="h2" placeholder="Digite H2 em gramas:">
             <input type="number" id="o2" placeholder="Digite O2 em gramas:"><br><br>
             <button type="button" id="botao">Calcular</button>
             <button type="button" id="limpar">Limpar</button>
-            <p id="resultado"></p>
+            <h3 id="resultado" style="padding-top: 20px;"></h3>
         </form>
-        <br><li><a href="../1quimica.html">Voltar</a></li>
+        <br><a href="../1quimica.html"  id="voltar">Voltar</a>
         <script src="./js/quimica3.js"></script>
     </body>
 </html>

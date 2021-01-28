@@ -1,16 +1,42 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title></title>
+	<title>2º Trimestre</title>
 	<meta charset="utf-8">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="./js/livro.js"></script>
+    <link rel="stylesheet" type="text/css" href="../css/style2.css"/>
     <link rel="stylesheet" type="text/css" href="../css/style.css"/>
+    <link href="../css/bootstrap.min.css" rel="stylesheet" type="text/css">
+	<link href="../css/style.css" rel="stylesheet" type="text/css"> 
+	<link href="../css/font-awesome.css" rel="stylesheet" type="text/css"> 
+	<link href="../css/animate.css" rel="stylesheet" type="text/css">
+	<link rel="icon" href="../favicon.png" type="image/png">
 </head>
 <body>
 
-	<fieldset style="width: 400px;">
-		<legend>Cadastro de livros</legend>
+<!--Header_section-->
+<header id="header_wrapper">
+  <div class="container">
+    <div class="header_box">
+      <div class="logo"><a href="#"><img src="../img/nome.png" alt="logo"></a></div>
+	  <nav class="navbar navbar-inverse" role="navigation">
+	    <div id="main-nav" class="collapse navbar-collapse navStyle">
+			<ul class="nav navbar-nav" id="mainNav">
+			  <li><a href="../index.html" class="scroll-link">Home</a></li>
+			  <li class="active"><a href="#javas" class="scroll-link">JAVA SCRIPT</a></li>
+		</ul>
+      </div>
+	 </nav>
+    </div>
+  </div>
+</header>
+<!--Header_section--> 
+
+
+	<fieldset id="l1">
+		<h1 id="teste">Cadastro de livros</h1>
+		<section id="tamanho2">
 		<input type="text" id="titulo" class="tttt" placeholder="titulo"><br>
 		<textarea id="descricao" class="tttt" placeholder="descricao"></textarea> <br>
 		<select id="genero" class="tttt">
@@ -26,12 +52,15 @@
 		<option></option>
 		</datalist>	
 		<br>
+		<section id="parabt">
 		<button id="botao">Adicionar a lista</button>
+	</section>
+	</section>
 	</fieldset>
 
-    <section style="width: 500px;">
-	<h1>Catálogo</h1>
-
+    <section id="l2">
+	<h1 id="teste">Catálogo</h1>
+	<section id="tamanho3">
 	<table width="60%" border="1" id="acervo">
 		<tr>
 			<th class="teste">Título</th>
@@ -41,19 +70,23 @@
 			<th></th>
 		</tr>
 	</table>
-
+</section>
 	<br>
 
 	<form action="https://rafaelescalfoni.net/web/livros.php" method="post">
 		<input type="hidden" name="acervo_post">
+		<section id="parainp">
 		<input type="submit" value="Salvar no BD" id="salvar_bd">
+	</section>
 	</form>
 
 </section>
 
 </body>
 <footer>
-    <a href="../2trimestre.html" class="volt">Voltar</a>
+    <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br>
+    <br> <br><br> <br><br> <br> <br> <br>
+    <a href="../2trimestre.html"  id="voltar">Voltar</a>
 </footer>
 
 </html>

@@ -18,9 +18,9 @@ elemento.onclick=function clicar()
     quadrado.style.height='100px';
     quadrado.style.width='100px';
     quadrado.style.margin = '10px';
-    quadrado.style.backgroundColor='#FFCC99';
+    quadrado.style.backgroundColor='#b3ffb3';
     quadrado.style.float = 'left';
-    quadrado.style.border = '5px solid #800000';
+    quadrado.style.border = '5px solid #2E8B57';
     quadrado.onmouseover = function coresaleatorias()
     {
      quadrado.style.backgroundColor= getRandomColor();
