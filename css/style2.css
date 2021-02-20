@@ -6,6 +6,27 @@
 
 }
 
+p{
+	color: black;
+}
+
+.vermelho{
+	color: red;
+	font-size: 20px;
+	font-family: impact;
+}
+.laranja{
+	color: #ffa500;
+	font-size: 20px;
+	font-family: impact;
+}
+.verde{
+	color: green;
+	font-size: 20px;
+	font-family: impact;
+}
+
+
 .bprincipal{
 	background-color: #800000; 
     color: white;
@@ -177,6 +198,10 @@
 	font-family:Luminari, fantasy;
 }
 
+#tarefas2{
+	padding-left: 50px;
+}
+
 #textodesafio2{
 	background-color: #b3ffb3;
 	color: black;
@@ -187,6 +212,11 @@
 	background-color: #b3ffb3;
 	color: black;
 	padding-left: 20px;
+}
+#textodesafio3{
+	background-color: #2E8B57;
+	color: white;
+	padding-left: 50px;
 }
 #textodesafio{
 	background-color: #2E8B57;
