@@ -6,6 +6,11 @@
     border: white solid 15px ;
 }
 
+.horas{
+    font-size: 20px;
+    font-family: Luminari, fantasy;
+}
+
 .secao p 
 {
     font-size: 110%;

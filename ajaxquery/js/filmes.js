@@ -167,6 +167,8 @@ $(function(){
 			let h = filme[i].classificacao;
 			let figura = filme[i].figura;
 
+			let horas = "<br><br><br><br><br><a href='horas.html' style='border: black solid px;'>Duração/Temporadas</a></li>";
+
 			// append add uma linha nova //
 			if(a && b && c && d && e && f && g)
 			{
@@ -184,6 +186,7 @@ $(function(){
                         $("<p>").html(opi(g)).addClass("opniao"),
                         $("<p>").html("<b>Títulos semelhantes: <br></>").addClass("ts"),
                         $("<p>").html(filme_semelhante(e)).addClass("ts"),
+                        $("<a>").html(horas).addClass("horas"),
                     ).addClass("col-md-6 col-sm-12 fundo")
                 );  
 			}
