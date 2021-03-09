@@ -1,0 +1,90 @@
+.fundo
+{
+    padding: 2%;
+    height: 800px;
+    background-color: #e6ffb3;
+    border: white solid 15px ;
+}
+
+.secao p 
+{
+    font-size: 110%;
+    color: black;
+    font-family: 'Open Sans', sans-serif;
+    text-align: justify;
+}
+
+.desc
+{
+    float: left;
+    text-align: justify;
+}
+
+.genero
+{
+    text-align: justify;
+    float: left;
+    width: 40%;
+    padding-right: 10px;
+
+}
+
+.ts 
+{
+    float: left;
+    width: 60%;
+    padding-top: 20px;
+
+}
+
+
+.titulo{
+    float: left;
+    width: 80%;
+    color: black;
+    font-size: 2em;
+    font-family: Luminari, fantasy;
+}
+.titulo2{
+    color: black;
+    font-size: 2em;
+    border: black solid 2px;
+    font-family: Luminari, fantasy;
+    text-align: center;
+    background-color: #e6ffb3;
+}
+.ava
+{
+    float: left;
+    width: 80%;
+    color: black;
+}
+
+.opniao
+{
+    width: 100%;
+    float: left;
+    color: black;
+    font-size: 15px;
+}
+
+.opniao p 
+{
+    font-family: 'Kalam', cursive;
+    color: black;
+}
+
+.elenco
+{
+    float: left;
+    width: 40%;
+    padding-right: 10px;
+    padding-top: 10px;
+}
+
+.image
+{
+    width: 60%;
+    float: right;
+    border: black solid 5px;
+}
