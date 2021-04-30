@@ -20,7 +20,7 @@ $(function(){
 				return pares = (pares%2 == 0);
 			})
 			let strinDNV2 = par.join(",");
-			$("#resultado2").html("O(s) número(s) par(es) é(são): "+ strinDNV2 + "."); 
+			$("#resultado2").html("O(s) número(s) par(es) é(são): "+ uniquei(strinDNV2) + "."); 
 
 			let	soma = n.reduce(function(s,n){
 				return parseInt(s) + parseInt(n);
@@ -31,6 +31,11 @@ $(function(){
 		
 
 	})
+	function uniquei (u)
+    {
+        let unico = [...new Set(u)];
+        return unico.join(",");
+    }
 
 $("#limpar").click(function(){
         $("#numeros").val("");
