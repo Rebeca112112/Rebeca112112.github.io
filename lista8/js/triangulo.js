@@ -9,10 +9,19 @@ $(function(){
 		n2 = parseInt(n2);
 		n3 = parseInt(n3);
 
+		function coerente(valor)
+   		{
+	        if(valor < 0)
+	        {
+	            valor = valor * (-1);
+	        }
+	        return valor;
+    	}
+
 		// não pode ser negativo//
-		if(n1>0 && n2>0 && n3>0){
+		if(coerente(n2-n3) < n1 && n1 < (n2+n3) || coerente(n1-n3) < n2 && n2 < (n1+n3) || coerente(n1-n2) < n3 && n3 < (n1+n2)){
 		// verificando se eh um triangulo //
-			if(n1 < n2 + n3 || n2 < n1 + n3 || n3 < n1 + n2){
+			if(n1>0 && n2>0 && n3>0){
 
 				if(n1 == n2 && n1 == n3)
 				{	
